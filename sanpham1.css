@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#head{
+    background-color: aqua;
+    margin-top: -4px;
+    text-align: center;
+}
+
+#header .qc{
+    max-width: 100%;
+}
+
+#header #head li{
+    display: inline-block;
+    padding: 10px 12px; 
+}
+
+#header ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 12px; 
+}
+
+#header ul li a:hover{
+    background-color: rgb(1, 198, 198);
+}
+
+#head2{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding:20px 0; 
+    background-color: aliceblue;
+}
+
+#head2 #logo{
+    width: 50px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+#head2 input{
+    width: 1000px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#head2 #dangnhap {
+    display: flex;
+    align-items: center; 
+    margin-left: auto; 
+    padding: 10px; 
+    border-radius: 5px;
+    text-decoration: none;
+    color: black; 
+    margin-left: 40px;
+}
+
+#head2 #dangnhap:hover {
+    color: rgb(178, 210, 210);
+}
+
+
+#head2 #dangnhap #avat {
+    width: 40px;
+    margin-right: 10px;
+
+}
+
+#conten {
+    display: flex;
+    justify-content: center;
+    padding: 0 60px;
+    margin-top: 40px;
+}
+
+#san-pham {
+    display: flex;
+    align-items: center;
+}
+
+.anh-sanpham {
+    flex: 0 0 auto; 
+    margin-right: 20px;
+    width: 560px;
+}
+
+.sanpham {
+    flex: 1;
+    text-align: justify;
+}
+
+.tieude{
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.gioithieu{
+    line-height: 1.4;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.sanpham ul{
+    margin-left: 15px;
+}
+
+.sanpham ul li{
+    padding: 5px 0;
+}
+
+#chitietsp{
+    margin: 0 20px;
+}
+
+#chitietsp #ctsp{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.tts {
+    position: relative; 
+    margin-bottom: 10px; 
+    padding-bottom: 10px;
+}
+
+.tts::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px; 
+    width: 100%;
+    height: 2px;
+    background-color: #bdbcbc; 
+}
+
+
+#fooder{
+    margin-top: 40px;
+    padding: 30px 20px;
+    background-color: rgb(143, 166, 185);
+    line-height: 1.4;
+}
+
+#fooder .diachi{
+    display: inline-block;
+    width: 47%;
+    margin-left: 30px;
+}
+
+#fooder h4{
+    margin-bottom: 20px;
+}
+
+#mua {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.giamua {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+    
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff; /* Màu nền */
+    color: #fff; /* Màu chữ */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Hiệu ứng khi hover */
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Màu nền khi hover */
+}
